@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    width: 100vw;
+    height:100vh;
+    
+
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+ 
+    padding-top: 10px;
+    padding-left:20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs ul li{
+    display: inline;
+    font-size: 17px;
+    padding:40px;
+    letter-spacing: 1.2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all;
+    transition-duration:0.3s ;
+   transition-timing-function: linear;
+
+
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+.profile i{
+    font-size: 18px;
+}
+.logo{
+  
+    display: flex;
+    align-items: center;
+   
+    gap: 10px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo h4{
+    
+    font-size: 23px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
+.sidebar{
+  
+    width: 23%;
+    height:calc(100vh - 10vh);
+    overflow-y: scroll;
+}
+
+.sidebar ul li{
+
+   height: 60px;
+    font-size: 20px;
+    font-weight: 540;
+    letter-spacing: 1.5px;
+  padding: 20px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all;
+    
+}
+.sidebar ul li:hover {
+    cursor: pointer;
+    background-color: rgba(205, 202, 202, 0.402);
+    transition-duration:0.3s ;
+    letter-spacing: 1.8px;
+    transition-timing-function: linear;
+    color: orangered;
+}
+.tabs ul li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.profile i:hover{
+    cursor: pointer;
+    color: orangered;
+    font-size: 20px;
+    transition: all;
+    transition-duration:0.1s ;
+   transition-timing-function: linear;
+}
+.profile h3:hover{
+    cursor: pointer;
+    color: orangered;
+    transition: all;
+    transition-duration:0.2s ;
+   transition-timing-function: linear;
+}
+.content{
+   
+    display: flex;
+  gap: 70px;
+}
+.content iframe{
+    height:450px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.map{
+ 
+    padding-top: 40px;
+    
+    
+}
+
